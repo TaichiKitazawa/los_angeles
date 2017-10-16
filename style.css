@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    height: 5%;
+    width: 100%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.top_title {
+    color: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+.top_button{
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.days_button{
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.days_button > .top_title{
+    color: #282828;
+}
+
+
+.menu_bar {
+    overflow: hidden;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.menu_bar li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu_bar li a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    margin: 2px 16px 2px;
+}
+
+.days_menu{
+    overflow: hidden;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.days_menu li{
+    list-style-type: none;
+    float: left;
+}
+
+.days_menu li a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #282828;
+    margin: 2px 16px 2px;
+}
+
+.btn-4 {
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(0, 0, 0, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-4:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.btn-5 {
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-5:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.container {
+    height: 90%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+/*左右の矢印の色を変える*/
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+
+/*左右の矢印の位置を変える*/
+
+.slick-next {
+    right: 20px;
+    z-index: 99;
+}
+
+.slick-prev {
+    left: 15px;
+    z-index: 100;
+}
+
+
+/*スライド数のドットの色を変える*/
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+    color: #fff;
+}
+
+
+/*スライド画像の横幅可変*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title {
+    line-height: 1;
+    float: left;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-intems: center;
+    align-items: center;
+}
+
+.menu {
+    float: right;
+}
+
+.gallery{
+    color: #8cefff;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.thumb-item-nav img{
+    
+}
