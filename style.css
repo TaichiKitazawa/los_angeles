@@ -28,7 +28,7 @@ a {
     font-size: 30px;
 }
 
-.top_button{
+.top_button {
     width: 30%;
     overflow: hidden;
     float: left;
@@ -36,7 +36,7 @@ a {
     margin-left: 50px;
 }
 
-.days_button{
+.days_button {
     width: 30%;
     overflow: hidden;
     float: left;
@@ -44,10 +44,9 @@ a {
     margin-left: 30px;
 }
 
-.days_button > .top_title{
+.days_button > .top_title {
     color: #282828;
 }
-
 
 .menu_bar {
     overflow: hidden;
@@ -70,14 +69,14 @@ a {
     margin: 2px 16px 2px;
 }
 
-.days_menu{
+.days_menu {
     overflow: hidden;
     float: right;
     margin-top: 30px;
     margin-right: 50px;
 }
 
-.days_menu li{
+.days_menu li {
     list-style-type: none;
     float: left;
 }
@@ -186,7 +185,7 @@ img {
     float: right;
 }
 
-.gallery{
+.gallery {
     color: #8cefff;
 }
 
@@ -199,6 +198,20 @@ img {
     text-decoration: none;
 }
 
-.thumb-item-nav img{
-    
+.thumb-item-nav li{
+     overflow: hidden;
+    width: 200px;/* トリミングしたい枠の幅 */
+    height: 200px;/* トリミングしたい枠の高さ */
+    position: relative;
+}
+
+.thumb-item-nav li img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
 }

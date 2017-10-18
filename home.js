@@ -13,13 +13,37 @@ $(function(){
         { src: 'images/day2/day2_9.jpg' },
         { src: 'images/day2/day2_15.jpg' },
         { src: 'images/day2/day2_18.jpg' },
+        { src: 'images/day2/day2_21.jpg' },
+        { src: 'images/day3/day3_1.jpg' },
+        { src: 'images/day3/day3_6.jpg' },
+        { src: 'images/day3/day3_13.jpg' },
+        { src: 'images/day4/day4_5.jpg' },
+        { src: 'images/day4/day4_7.jpg' },
+        { src: 'images/day4/day4_14.jpg' },
+        { src: 'images/day4/day4_17.jpg' },
+        { src: 'images/day5/day5_3.jpg' },
+        { src: 'images/day5/day5_4.jpg' },
+        { src: 'images/day5/day5_5.jpg' },
+        { src: 'images/day5/day5_8.jpg' },
+        { src: 'images/day5/day5_10.jpg' },
+        { src: 'images/day5/day5_17.jpg' },
+        { src: 'images/day6/day6_7.jpg' },
+        { src: 'images/day6/day6_10.jpg' },
+        { src: 'images/day6/day6_12.jpg' },
+        { src: 'images/day6/day6_15.jpg' },
+        { src: 'images/day6/day6_18.jpg' },
+        { src: 'images/day6/day6_20.jpg' },
+        { src: 'images/day6/day6_23.jpg' },
+        { src: 'images/day6/day6_25.jpg' },
     ],
+      shuffle: true,
      delay: 5000, //スライドまでの時間ををミリ秒単位で設定
      timer: true, //タイマーバーの表示/非表示を切り替え
-     overlay: 'img/01.png', //オーバーレイする画像の設定
+     overlay: '', //オーバーレイする画像の設定
      animation: 'random', //スライドのアニメーションを設定
      transition: 'blur', //スライド間のエフェクトを設定
-     transitionDuration: 1000 //エフェクト時間をミリ秒単位で設定
+     transitionDuration: 1000, //エフェクト時間をミリ秒単位で設定
+      loop: true
   });
 });
 
